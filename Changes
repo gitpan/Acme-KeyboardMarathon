@@ -3,3 +3,16 @@ Revision history for Perl extension ACME::KeyboardMarathon.
 1.07  2012/04/09
 
 	Initial module creation.
+
+1.13  2012/04/11
+
+	Corrected a quoting mistake.
+	Corrected values on tests due to quoting mistake.
+	Now warning, instead of exiting on bad chars.
+	Using Carp.
+	Removed an unused var.
+	Corrected spelling and format mistakes in the POD.
+	Added info on marathon.pl to the POD.
+	Added RCS data.
+	Added warnings.
+	And several other cleanups from Perl::Critic

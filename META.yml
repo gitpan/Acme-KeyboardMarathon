@@ -1,8 +1,15 @@
-name:         ACME-KeyboardMarathon
-version:      1.07
-version_from: lib/ACME/LeyboardMarathon.pm
-installdirs:  site
-requires:
-
+abstract: How far have your fingers ran?
+author:
+  Phil Pollard <bennie@cpan.org>
+  Efrain Klein <efrain.klein@gmail.com>
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.21
+name: ACME-KeyboardMarathon
+generated_by: Phil Pollard <bennie@cpan.org>
+license: perl
+meta-spec:
+  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.13
+version_from: lib/ACME/LeyboardMarathon.pm
