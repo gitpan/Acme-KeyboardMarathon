@@ -1,6 +1,7 @@
 package ACME::KeyboardMarathon;
 
 use Carp;
+
 use warnings;
 use strict;
 
@@ -10,7 +11,7 @@ sub new {
   my $self = {};
   bless($self,$class);
 
-  our $VERSION = '1.14';
+  our $VERSION = '1.15';
 
   # all measures in cm
 
@@ -148,7 +149,7 @@ Additional patches from Mark A. Smith. <jprogrammer082@gmail.com>
 
 =head1 VERSION
 
-  ACME::KeyboardMarathon v1.14 2013/04/29
+  ACME::KeyboardMarathon v1.15 2013/05/03
   
 =head1 LICENSE AND COPYRIGHT
   
