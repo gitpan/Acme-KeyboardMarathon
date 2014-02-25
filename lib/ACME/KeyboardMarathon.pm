@@ -11,7 +11,7 @@ sub new {
   my $self = {};
   bless($self,$class);
 
-  our $VERSION = '1.15';
+  our $VERSION = '1.16';
 
   # all measures in cm
 
@@ -136,7 +136,27 @@ HOME ROW FOR EVERY CAPITAL LETTER!!!!!!!
 show up on my American barbarian keyboard. I'll add the LATIN-1 things with 
 diacritics later, so I can feel better while still ignoring UTF's existence.
 
-=head1 AUTHOR
+=head1 BUGS AND SOURCE
+
+	Bug tracking for this module: https://rt.cpan.org/Dist/Display.html?Name=ACME-KeyboardMarathon
+
+	Source hosting: http://www.github.com/bennie/perl-ACME-KeyboardMarathon
+
+=head1 VERSION
+
+	ACME::KeyboardMarathon v1.16 (2014/02/24)
+
+=head1 COPYRIGHT
+
+	(c) 2012-2014, Efrain Klein <efrain.klein@gmail.com> & Phillip Pollard <bennie@cpan.org>
+
+=head1 LICENSE
+
+This source code is released under the "Perl Artistic License 2.0," the text of
+which is included in the LICENSE file of this distribution. It may also be
+reviewed here: http://opensource.org/licenses/artistic-license-2.0
+
+=head1 AUTHORSHIP
 
 Efrain Klein <efrain.klein@gmail.com> & Phillip Pollard <bennie@cpan.org>
 
@@ -146,14 +166,3 @@ measurements, and wrote the original code in Python. I just made sure it
 was less readable, in Perl.
 
 Additional patches from Mark A. Smith. <jprogrammer082@gmail.com>
-
-=head1 VERSION
-
-  ACME::KeyboardMarathon v1.15 2013/05/03
-  
-=head1 LICENSE AND COPYRIGHT
-  
-  (c) 2012-2013, Efrain Klein <efrain.klein@gmail.com> & Phillip Pollard <bennie@cpan.org>
-  Released under the Perl Artistic License
-
-

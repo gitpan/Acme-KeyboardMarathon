@@ -1,6 +1,11 @@
 Revision history for Perl extension ACME::KeyboardMarathon.
 
-1.15  2013/05/03
+1.16  2014/02/24
+
+	Updated meta information
+	Added LICENSE file to distribution
+
+1.14  2014/02/19
 
 	POD corrections from Mark A. Smith. (jprogrammer082@gmail.com)
 
