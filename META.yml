@@ -1,6 +1,6 @@
 --- #YAML:1.0
-name:       ACME-KeyboardMarathon
-version:    1.16
+name:       Acme-KeyboardMarathon
+version:    1.17
 abstract:   How far have your fingers ran?
 author:
     - Phil Pollard <bennie@cpan.org>
@@ -13,22 +13,23 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     perl:               5.008001
+    Carp:               0
     Test::Simple:       0
 resources:
     bugtracker:
-        web:  https://rt.cpan.org/Dist/Display.html?Name=ACME-KeyboardMarathon
+        web:  https://rt.cpan.org/Dist/Display.html?Name=Acme-KeyboardMarathon
     repository:
         type:  git
-        url:   git://github.com/bennie/perl-ACME-KeyboardMarathon.git
-        web:   http://github.com/bennie/perl-ACME-KeyboardMarathon
+        url:   git://github.com/bennie/perl-Acme-KeyboardMarathon.git
+        web:   http://github.com/bennie/perl-Acme-KeyboardMarathon
 no_index:
     directory:
         - t
         - inc
 provides:
-    ACME::KeyboardMarathon:
-        file: lib/ACME/KeyboardMarathon.pm
-        version: 1.16
+    Acme::KeyboardMarathon:
+        file: lib/Acme/KeyboardMarathon.pm
+        version: 1.17
 generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
