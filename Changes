@@ -1,5 +1,10 @@
 Revision history for Perl extension ACME::KeyboardMarathon.
 
+1.18  2014/03/11
+
+	Added a POD test
+	Automatically building meta data
+
 1.17  2014/02/25
 
 	Correcting "ACME" to "Acme"

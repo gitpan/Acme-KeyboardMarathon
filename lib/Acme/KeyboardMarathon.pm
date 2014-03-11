@@ -11,7 +11,7 @@ sub new {
   my $self = {};
   bless($self,$class);
 
-  $Acme::KeyboardMarathon::VERSION = '1.17';
+  $Acme::KeyboardMarathon::VERSION = '1.18';
 
   # all measures in cm
 
@@ -144,7 +144,7 @@ diacritics later, so I can feel better while still ignoring UTF's existence.
 
 =head1 VERSION
 
-	Acme::KeyboardMarathon v1.17 (2014/02/25)
+	Acme::KeyboardMarathon v1.18 (2014/03/11)
 
 =head1 COPYRIGHT
 
