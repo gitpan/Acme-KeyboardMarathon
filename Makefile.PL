@@ -5,10 +5,11 @@ WriteMakefile(
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Acme::KeyboardMarathon',
-  VERSION  => '1.18',
+  VERSION  => '1.19',
 
   PREREQ_PM => {
           'Test::More' => 0,
+          'Math::BigInt' => 0,
           'Test::Simple' => 0,
           'Carp' => 0
         },
@@ -22,7 +23,7 @@ WriteMakefile(
 
 	{
           'Acme::KeyboardMarathon' => {
-                                        'version' => '1.18',
+                                        'version' => '1.19',
                                         'file' => 'lib/Acme/KeyboardMarathon.pm'
                                       }
         },

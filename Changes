@@ -1,5 +1,13 @@
 Revision history for Perl extension ACME::KeyboardMarathon.
 
+1.19  2014/03/19
+
+	Converted to Math::BigInt for cross-system compatibility
+	Only returning the integer CM distance
+	Using a 2.5-cm distance on unknown letters
+	marathon.pl now trying to ignore binary files
+	Updated to Test::Simple for tests
+
 1.18  2014/03/11
 
 	Added a POD test

@@ -1,5 +1,5 @@
 
-     Acme::KeyboardMarathon - How far have your fingers ran? - v1.18
+     Acme::KeyboardMarathon - How far have your fingers ran? - v1.19
 
 ================================================================================
  SYNOPSIS
@@ -98,7 +98,7 @@ Additional patches from Mark A. Smith. <jprogrammer082@gmail.com>
  VERSION
 ================================================================================
 
-  Acme::KeyboardMarathon v1.18 2014/03/11
+  Acme::KeyboardMarathon v1.19 2014/03/19
   
 ================================================================================
  LICENSE AND COPYRIGHT
