@@ -1,5 +1,10 @@
 Revision history for Perl extension ACME::KeyboardMarathon.
 
+1.22  2014/03/24
+
+	Corrected error where 'i' or 'I' was assigned the wrong value
+	Cleaned the new() method for clarity of distance calculation
+
 1.21  2014/03/21
 
 	Avoiding copying values from @_ on distance

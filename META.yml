@@ -21,7 +21,7 @@ no_index:
 provides:
   Acme::KeyboardMarathon:
     file: lib/Acme/KeyboardMarathon.pm
-    version: 1.21
+    version: 1.22
 requires:
   Carp: 0
   File::Slurp: 0
@@ -32,4 +32,4 @@ requires:
 resources:
   bugtracker: https://rt.cpan.org/Dist/Display.html?Name=Acme-KeyboardMarathon
   repository: git://github.com/bennie/perl-Acme-KeyboardMarathon.git
-version: 1.21
+version: 1.22
