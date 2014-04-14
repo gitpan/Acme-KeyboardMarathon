@@ -1,5 +1,11 @@
 Revision history for Perl extension ACME::KeyboardMarathon.
 
+1.23  2014/04/14
+
+	Added "source-tree-marathon.pl"
+	Work from James Raspass <jraspass@gmail.com> that vastly improves speed
+	Corrected minor scoping error in "fox" test
+
 1.22  2014/03/24
 
 	Corrected error where 'i' or 'I' was assigned the wrong value
