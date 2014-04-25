@@ -1,5 +1,5 @@
 package Acme::KeyboardMarathon;
-$Acme::KeyboardMarathon::VERSION = '1.23';
+$Acme::KeyboardMarathon::VERSION = '1.24';
 
 use Carp;
 use Data::Dumper;
@@ -226,7 +226,7 @@ diacritics later, so I can feel better while still ignoring UTF's existence.
 
 =head1 VERSION
 
-	Acme::KeyboardMarathon v1.23 (2014/04/14)
+	Acme::KeyboardMarathon v1.24 (2014/04/25)
 
 =head1 COPYRIGHT
 

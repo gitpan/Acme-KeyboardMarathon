@@ -5,7 +5,7 @@ WriteMakefile(
   AUTHOR   => 'Phil Pollard <bennie@cpan.org>',
   LICENSE  => 'artistic_2',
   NAME     => 'Acme::KeyboardMarathon',
-  VERSION  => '1.23',
+  VERSION  => '1.24',
 
   PREREQ_PM => {
           'Test::More' => 0,
@@ -24,7 +24,7 @@ WriteMakefile(
 
 	{
           'Acme::KeyboardMarathon' => {
-                                        'version' => '1.23',
+                                        'version' => '1.24',
                                         'file' => 'lib/Acme/KeyboardMarathon.pm'
                                       }
         },
@@ -47,7 +47,7 @@ WriteMakefile(
 
   ( $ExtUtils::MakeMaker::VERSION < 6.48
         ? ()
-        : ( MIN_PERL_VERSION => '5.008001' )
+        : ( MIN_PERL_VERSION => '5.006' )
   )
 
 );
